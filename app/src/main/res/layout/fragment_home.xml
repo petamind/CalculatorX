@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+    <TextView
+        android:id="@+id/result_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/result_textview_style"
+        />
+    <LinearLayout
+        android:id="@+id/m_row"
+        app:layout_constraintTop_toBottomOf="@+id/result_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="MC"
+            style="@style/cell"
+            />
+        <Button
+            android:text="MR"
+            style="@style/cell"
+            />
+        <Button
+            android:text="M+"
+            style="@style/cell"
+            />
+        <Button
+            android:text="M-"
+            style="@style/cell"
+            />
+        <Button
+            android:text="MS"
+            style="@style/cell"
+            />
+        <Button
+            android:text="M˅"
+            style="@style/cell"
+            />
+    </LinearLayout>
+    <TableLayout
+        app:layout_constraintTop_toBottomOf="@+id/m_row"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
