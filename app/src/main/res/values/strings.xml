@@ -13,4 +13,30 @@
     <string name="standard">Standard</string>
     <string name="scientific">Scientific</string>
     <string name="graphing">Graphing</string>
+    <string-array name="labels">
+        <item>%</item>
+        <item>CE</item>
+        <item>C</item>
+        <item>⌫</item>
+        <item>1/x</item>
+        <item>x²</item>
+        <item>√x</item>
+        <item>÷</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>×</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>-</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>+</item>
+        <item>+/-</item>
+        <item>0</item>
+        <item>.</item>
+        <item>=</item>
+    </string-array>
 </resources>
